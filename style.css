@@ -1,0 +1,17 @@
+.CaiApp .CaiAppHeader--btn, .RecastApp .RecastAppHeader--btn{
+  display: none;
+}
+
+.CaiApp .CaiAppChat, .RecastApp .RecastAppChat{
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.CaiApp .CaiAppLive, .RecastApp .RecastAppLive{
+  height: 100% !important;
+}
+
+.CaiApp .CaiAppMessage .CaiAppText, .CaiApp .CaiAppMessage .RecastAppText, .RecastApp .RecastAppMessage .CaiAppText, .RecastApp .RecastAppMessage .RecastAppText{
+  max-width: 100% !important;
+  border-radius: 32px !important;
+}
